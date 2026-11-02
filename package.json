@@ -1,0 +1,65 @@
+{
+  "name": "@gingerdocs/react",
+  "version": "0.1.0",
+  "description": "React component for embedding the GingerDocs signing experience.",
+  "license": "MIT",
+  "author": "GingerDocs",
+  "homepage": "https://github.com/gingerdocs/embed-react-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gingerdocs/embed-react-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gingerdocs/embed-react-sdk/issues"
+  },
+  "keywords": [
+    "gingerdocs",
+    "esignature",
+    "e-signature",
+    "embed",
+    "react",
+    "signing",
+    "pdf",
+    "component"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/gingerdocs-react.umd.cjs",
+  "module": "./dist/gingerdocs-react.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/gingerdocs-react.js",
+      "require": "./dist/gingerdocs-react.umd.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "@gingerdocs/embed": "^0.1.0",
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@gingerdocs/embed": "^0.1.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.2.6",
+    "jsdom": "^29.1.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vitest": "^4.1.7"
+  }
+}
