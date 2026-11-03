@@ -1,5 +1,7 @@
 # @gingerdocs/react
 
+[![npm](https://img.shields.io/npm/v/%40gingerdocs%2Freact?label=npm)](https://www.npmjs.com/package/@gingerdocs/react) [![CI](https://github.com/gingerdocs/embed-react-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/gingerdocs/embed-react-sdk/actions/workflows/ci.yml) [![licence](https://img.shields.io/npm/l/%40gingerdocs%2Freact)](https://github.com/gingerdocs/embed-react-sdk/blob/main/LICENSE)
+
 React wrapper for [`@gingerdocs/embed`](https://github.com/gingerdocs/embed-sdk).
 
 ```bash
